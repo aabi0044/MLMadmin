@@ -16,6 +16,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SidenavComponent } from './shared/sidenav/sidenav.component';
 import { HomeComponent } from './pages/dashboard/home/home.component';
+import { JobslistComponent } from './pages/dashboard/jobslist/jobslist.component';
 
 
 const ROUTES = [
@@ -34,7 +35,10 @@ const ROUTES = [
     path: 'dashboard',
     component: DashboardComponent
   },
- 
+  {
+    path: 'jobslist',
+    component: JobslistComponent
+  },
 ]
 @NgModule({
   declarations: [
@@ -43,7 +47,8 @@ const ROUTES = [
     DashboardComponent,
     HeaderComponent,
     SidenavComponent,
-    HomeComponent
+    HomeComponent,
+    JobslistComponent
   ],
   imports: [
     BrowserModule,
