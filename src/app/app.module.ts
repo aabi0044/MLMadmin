@@ -15,6 +15,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SidenavComponent } from './shared/sidenav/sidenav.component';
+import { HomeComponent } from './pages/dashboard/home/home.component';
 
 
 const ROUTES = [
@@ -41,7 +42,8 @@ const ROUTES = [
     LoginComponent,
     DashboardComponent,
     HeaderComponent,
-    SidenavComponent
+    SidenavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
